@@ -30,7 +30,7 @@ class FormularioController {
 
     @FXML
     //Mensaje que aparecera tras rellenar el TextField
-    private fun MensajeFinal() {
+    private fun mensajeFinalFormulario() {
         val introducirNombre = introducirNombre.text
         mensajeLabel.text = "Hola $introducirNombre"
     }
