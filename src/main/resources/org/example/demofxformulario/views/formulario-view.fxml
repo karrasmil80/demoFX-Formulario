@@ -12,6 +12,6 @@
     </padding>
     <Label fx:id="mensajeLabel" prefHeight="17.0" prefWidth="171.0" text="Introduce tu nombre de usuario" />
    <TextField fx:id="introducirNombre" />
-    <Button onAction="#MensajeFinal" prefHeight="33.0" prefWidth="190.0" text="Enviar Formulario" />
+    <Button onAction="#mensajeFinalFormulario" prefHeight="33.0" prefWidth="190.0" text="Enviar Formulario" />
     <Label fx:id="mensajeFinal" prefHeight="17.0" prefWidth="171.0" text="" />
 </VBox>
